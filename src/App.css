@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+:root {
+  background-color: black;
+}
+
+.body {
+  background-color: black;
+  color: white;
+  font-family: 'Signika Negative', sans-serif;
+}
+
 .App {
   text-align: center;
 }
