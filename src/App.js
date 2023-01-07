@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 import './App.css';
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMe from "./components/ContactMe/ContactMe";
@@ -13,14 +13,18 @@ function App() {
   }
 
   return (
-    <div className='body'>
-      <NavBar /> 
-      <Routes>
+    <div className='bodyMain'>
+      <NavBar />
+      <Home />
+      <AboutMe />
+      <Projects />
+      <ContactMe /> 
+      {/* <Routes>
         <Route path="/" element={<Home titleChange={titleChange} />}/>
         <Route path="/about" element={<AboutMe titleChange={titleChange} />} />
         <Route path="/projects" element={<Projects titleChange={titleChange} />} />
         <Route path="/contact" element={<ContactMe titleChange={titleChange} />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.container {
+    min-height: 500PX;
+    background-image: linear-gradient(rgba(234, 232, 232, 0.7), rgba(228, 226, 226, 0.7)),url(../../images/keyboard.jpg);
+    backdrop-filter: blur(8px);
+    background-size: 2000PX;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    text-align: center;
+}
