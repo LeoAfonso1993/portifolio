@@ -1,0 +1,24 @@
+.projCard {
+    overflow: hidden;
+    color: rgb(39, 39, 39);
+    
+}
+
+.linkButton {
+    background-color: aqua;
+}
+
+.projContainer {
+    justify-content: center;
+    
+}
+
+.body {
+    text-align: center;
+    padding: 100px; 
+}
+
+.video {
+    margin-top: 10px;
+    justify-content: center;
+}
