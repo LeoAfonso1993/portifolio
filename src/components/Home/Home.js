@@ -1,27 +1,27 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import pic from '../../images/no back web photo.png'
 import homeCSS from '../Home/Home.module.css'
+import {Grid} from 'semantic-ui-react'
 
 
 function Home() {
     return(
         <>
             <Container className={homeCSS.homeContainer}>
-                <Row className={homeCSS.row}>
-                    <Col lg={5}>
+                <Grid stackable columns={2}>
+                    <Grid.Column>
                         <div className={homeCSS.txtContainer}>
-                            <h1><strong>Hi, I'm Leo Afonso</strong></h1>
-                            <p>Software Developer | Multicultural | Constant Learner</p>
+                            <h1 className={homeCSS.title}><strong>Hi, I'm <span style={{color: 'rgb(0, 193, 217)'}}>Leo Afonso</span></strong></h1>
+                            <p style={{fontSize: 'large'}}>Software Developer | Multicultural | Constant Learner</p>
                         </div>
-                    </Col>
-                    <Col lg={5}>
+                    </Grid.Column>
+                    <Grid.Column>
                         <div className={homeCSS.imgContainer}>
                             <img src={pic} alt='pic' className={homeCSS.image}></img>
                         </div>
-                    </Col>
-                </Row>
+                    </Grid.Column>
+
+                </Grid>
             </Container>
             
 

@@ -1,6 +1,6 @@
 .projCard {
     overflow: hidden;
-    color: rgb(39, 39, 39);
+    color: rgb(33, 37, 41);
     
 }
 
@@ -10,15 +10,21 @@
 
 .projContainer {
     justify-content: center;
+    width: 100%;
     
 }
 
 .body {
+    background-color: black;
     text-align: center;
-    padding: 100px; 
+    padding: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .video {
     margin-top: 10px;
     justify-content: center;
 }
+

@@ -6,15 +6,15 @@ import { Card, Grid, Button, Icon } from 'semantic-ui-react'
 function Projects() {
     return (
         <div className={projectCSS.body}>
-            <h2>Projects</h2>
+            <h1 style={{color: 'rgb(0, 193, 217)'}}>Projects</h1>
             <br/>
             <br/>
             <div className={projectCSS.projContainer}>
                 <Grid stackable columns={2}>
                     <Grid.Column>
-                    <Card className={projectCSS.projCard} style={{ background:'rgb(40, 40, 40)', width:'100%'}}>
+                    <Card className={projectCSS.projCard} style={{ background:'rgb(33, 37, 41)', width:'100%'}}>
                     <div className={projectCSS.video}>
-                        <iframe width="650" height="360" src="https://www.youtube.com/embed/mhBB_LN-tdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/mhBB_LN-tdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                         <Card.Content>
                             <Card.Header style={{ color: 'white'}}>Prov31</Card.Header>
@@ -27,16 +27,16 @@ function Projects() {
                             </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                            <Button>Link</Button>
-                            <Button><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
+                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
 
                     <Grid.Column>
-                    <Card className={projectCSS.projCard} style={{ background:'rgb(40, 40, 40)', width:'100%' }}>
+                    <Card className={projectCSS.projCard} style={{ background:'rgb(33, 37, 41)', width:'100%' }}>
                     <div className={projectCSS.video}>
-                        <iframe width="650" height="360" src="https://www.youtube.com/embed/9g5E654fXz4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/9g5E654fXz4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>    
                         <Card.Content>
                             <Card.Header style={{ color: 'white'}}>TechPrep</Card.Header>
@@ -49,16 +49,16 @@ function Projects() {
                             </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                            <Button>Link</Button>
-                            <Button><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
+                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
 
                     <Grid.Column>
-                    <Card className={projectCSS.projCard} style={{ background:'rgb(40, 40, 40)', width:'100%'}}>
+                    <Card className={projectCSS.projCard} style={{ background:'rgb(33, 37, 41)', width:'100%'}}>
                     <div className={projectCSS.video}>
-                        <iframe width="650" height="360" src="https://www.youtube.com/embed/ZybpPey2g2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/ZybpPey2g2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>    
                         <Card.Content>
                             <Card.Header style={{ color: 'white'}}>BGrateful</Card.Header>
@@ -71,16 +71,16 @@ function Projects() {
                             </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                            <Button>Link</Button>
-                            <Button><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
+                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
 
                     <Grid.Column>
-                    <Card className={projectCSS.projCard} style={{ background:'rgb(40, 40, 40)', width:'100%'}}>
+                    <Card className={projectCSS.projCard} style={{ background:'rgb(33, 37, 41)', width:'100%'}}>
                     <div className={projectCSS.video}>
-                        <iframe width="650" height="360" src="https://www.youtube.com/embed/LWusZ8n1nNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/LWusZ8n1nNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>    
                         <Card.Content>
                             <Card.Header style={{ color: 'white'}}>improvE</Card.Header>
@@ -93,8 +93,8 @@ function Projects() {
                             </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                            <Button>Link</Button>
-                            <Button><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
+                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>

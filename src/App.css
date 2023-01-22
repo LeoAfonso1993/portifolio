@@ -5,8 +5,10 @@
 
 
 #root {
+  background-image:url(./images/home-bg.jpg);
   background-color: black; 
   width: 100vw;
+  background-repeat: no-repeat;
   /* height: 100vw; */
   overflow: hidden;
   color: white;

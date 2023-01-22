@@ -3,6 +3,20 @@
 }
 
 .body {
-    background-color: rgb(40, 40, 40);
-    padding: 100px;
+    background-color: rgb(33, 37, 41);
+    padding: 50px;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.formContainer{
+    background-image: url(../../images/home-bg.jpg);
+    /* background-color: black; */
+    text-align: center;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.labels{
+    font-size: large;
 }
