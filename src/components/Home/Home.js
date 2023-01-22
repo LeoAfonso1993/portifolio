@@ -6,7 +6,7 @@ import {Grid} from 'semantic-ui-react'
 
 function Home() {
     return(
-        <>
+        <div className='home' id='home'>
             <Container className={homeCSS.homeContainer}>
                 <Grid stackable columns={2}>
                     <Grid.Column>
@@ -25,7 +25,7 @@ function Home() {
             </Container>
             
 
-        </>
+        </div>
     )
 }
 

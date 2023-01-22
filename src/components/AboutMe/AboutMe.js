@@ -2,7 +2,7 @@ import aboutCSS from '../AboutMe/AboutMe.module.css'
 
 function AboutMe() {
     return(
-        <div className={aboutCSS.container}>
+        <div className={aboutCSS.container} id='about'>
             <h1>About Me</h1>
             <br/>
             <p className={aboutCSS.text}> A Multipotentialite who got into Software Development, and recently graduated from Flatiron's Software Engineering Bootcamp.</p>
