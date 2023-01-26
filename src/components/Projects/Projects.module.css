@@ -11,6 +11,8 @@
 .projContainer {
     justify-content: center;
     width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 
@@ -28,3 +30,11 @@
     justify-content: center;
 }
 
+@media screen and (max-width:1100px) {
+
+    .projContainer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}

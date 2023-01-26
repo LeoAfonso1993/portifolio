@@ -28,7 +28,7 @@ function Projects() {
                         </Card.Content>
                         <Card.Content extra>
                             <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
-                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(0, 193, 217)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
@@ -50,7 +50,7 @@ function Projects() {
                         </Card.Content>
                         <Card.Content extra>
                             <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
-                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(0, 193, 217)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
@@ -72,7 +72,7 @@ function Projects() {
                         </Card.Content>
                         <Card.Content extra>
                             <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
-                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(0, 193, 217)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>
@@ -94,7 +94,7 @@ function Projects() {
                         </Card.Content>
                         <Card.Content extra>
                             <Button style={{backgroundColor: 'rgb(255, 151, 215)'}}>Link</Button>
-                            <Button style={{backgroundColor: 'rgb(246, 253, 183)'}}><Icon name='github'/>GitHub</Button>
+                            <Button style={{backgroundColor: 'rgb(0, 193, 217)'}}><Icon name='github'/>GitHub</Button>
                         </Card.Content>
                     </Card>
                     </Grid.Column>

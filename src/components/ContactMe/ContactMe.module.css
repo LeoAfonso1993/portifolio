@@ -20,3 +20,16 @@
 .labels{
     font-size: large;
 }
+
+
+@media screen and (width:770px) {
+
+    .formContainer {
+        width: 100%;
+    }
+
+    .body {
+        padding: 0;
+    }
+
+}
