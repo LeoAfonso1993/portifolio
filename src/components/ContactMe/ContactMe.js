@@ -25,7 +25,7 @@ function ContactMe() {
 
     return(
         <div className={contactCSS.body} id='contact'>
-            <h1 className={contactCSS.title}>Contact me</h1><br/>
+            <h2 className={contactCSS.title}>Contact me</h2><br/>
             <Grid stackable columns={1}>
             <Grid.Row style={{justifyContent: 'center', margin: '0' }}>
                 <div className={contactCSS.formContainer} style={{width: '80%'}}>

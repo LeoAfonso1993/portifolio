@@ -6,7 +6,7 @@ import { Card, Grid, Button, Icon } from 'semantic-ui-react'
 function Projects() {
     return (
         <div className={projectCSS.body} id='projects'>
-            <h1 style={{color: 'rgb(0, 193, 217)'}}>Projects</h1>
+            <h2 style={{color: 'rgb(0, 193, 217)'}}>Projects</h2>
             <br/>
             <br/>
             <div className={projectCSS.projContainer}>
