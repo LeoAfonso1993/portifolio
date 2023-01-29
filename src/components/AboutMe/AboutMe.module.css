@@ -11,3 +11,11 @@
     font-size: medium;
 }
 
+@media screen and (max-width:540px) {
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}

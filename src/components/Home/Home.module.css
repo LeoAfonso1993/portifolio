@@ -77,6 +77,14 @@
 
 }
 
+@media screen and (width:820px) {
+
+    .homeContainer {
+        height: 35vh;
+    }
+
+}
+
 @media screen and (max-width:768px) {
 
     .homeContainer {
@@ -97,7 +105,7 @@
 @media screen and (max-width:540px) {
 
     .homeContainer {
-        height: 90vh;
+        height: 80vh;
     }
 
 }
@@ -105,15 +113,15 @@
 @media screen and (max-width:414px) {
 
     .homeContainer {
-        height: 80vh;
+        height: 65vh;
     }
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:374px) {
 
     .homeContainer {
-        height: 90vh;
+        height: 60vh;
     }
 
 }
