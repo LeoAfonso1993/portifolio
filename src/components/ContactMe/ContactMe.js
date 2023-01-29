@@ -28,7 +28,7 @@ function ContactMe() {
             <h2 className={contactCSS.title}>Contact me</h2><br/>
             <Grid stackable columns={1}>
             <Grid.Row style={{justifyContent: 'center', margin: '0' }}>
-                <div className={contactCSS.formContainer} style={{width: '80%'}}>
+                <div className={contactCSS.formContainer} style={{width: '90%'}}>
                     <form ref={form} id="contact_form" onSubmit={sendEmail}>
                         <label className={contactCSS.labels}>Name</label><br/>
                         <input style={{width: '90%', height: '35px', borderRadius: '10px'}} type="text" name="user_name" /><br/><br/>
